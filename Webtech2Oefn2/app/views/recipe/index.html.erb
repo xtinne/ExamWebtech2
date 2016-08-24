@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Recipes</title>
+</head>
+<body>
+<h2>Recipes</h2>
+<table>
+<tr><td>Name of the recipe:</td> <td><%= @name %></td></tr>
+<tr><td>Price of the recipe:</td> <td><%= @price %></td></tr>
+<tr><td>Ingredients:</td> <td>
+	<% @ingredients.each do |ingredient| %>
+  		<li><%= ingredient %></li></ul>
+	<% end %>
+</td></tr></table>
+</body>
+</html>
