@@ -75,7 +75,7 @@ function editDoc(id, rev, gerecht, hoeveelheid, tafelNr, opmerkingen, datum, opg
 	html += '<input type="hidden" id="hoeveelheid" value ="' + hoeveelheid + '"/>';
 	html += '<input type="hidden" id="tafelNr" value ="' + tafelNr + '"/>';
 	html += '<input type="hidden" id="gerecht" value ="' + opmerkingen + '"/>';
-	html += '<input type="hidden" id="gerecht" value ="' + datum + '"/>';
+	html += '<input type="hidden" id="datum" value ="' + datum + '"/>';
 	html += '<tr><td>Opgeleverd:</td><td><input id="opgeleverd2" type="checkbox" value="' + opgeleverd + '"/></td></tr>';
 	html += '<tr><td colspan="2" align="center"><button type="button" class="btn btn-primary" onClick="updateDoc()">Ok</button></td></tr>';
 	html += '</table>';
